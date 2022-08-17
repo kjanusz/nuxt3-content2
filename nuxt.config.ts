@@ -5,9 +5,9 @@ export default defineNuxtConfig({
   // static HTML generation (SSG)
   ssr: true,
   target: "static",
-  // add router base configuration for github pages
-  router: {
-    base:'/nuxt3-content2/',
+  // modify baseURL for github pages
+  app: {
+    baseURL:'/nuxt3-content2/',
   },
   modules: ['@nuxt/content'],
   content: {
